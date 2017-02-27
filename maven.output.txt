@@ -1,0 +1,68 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Project Dashboard 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testing_example ---
+[INFO] Deleting /Users/cappetta/Dropbox/github/cappetta/testing_example/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testing_example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/cappetta/Dropbox/github/cappetta/testing_example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ testing_example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /Users/cappetta/Dropbox/github/cappetta/testing_example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testing_example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/cappetta/Dropbox/github/cappetta/testing_example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ testing_example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/cappetta/Dropbox/github/cappetta/testing_example/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ testing_example ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running github.cappetta.testing_example.TestProjectDashboard
+*** Navigation to Application ***
+*** Verifying EditIcons Exists ***
+*** Verifying Search Container Exists ***
+*** Verifying Record attributes Exists ***
+*** Verifying Record Container Exists ***
+*** Verifying Search Container Exists ***
+*** Verifying Stats Row exists ***
+*** Verifying page title ***
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.279 sec - in github.cappetta.testing_example.TestProjectDashboard
+checkEditIcon(github.cappetta.testing_example.TestProjectDashboard)  Time elapsed: 0.059 sec
+checkMoreButtong(github.cappetta.testing_example.TestProjectDashboard)  Time elapsed: 0.036 sec
+checkRecordAttributes(github.cappetta.testing_example.TestProjectDashboard)  Time elapsed: 0.104 sec
+checkRecordExists(github.cappetta.testing_example.TestProjectDashboard)  Time elapsed: 0.021 sec
+checkSearchExists(github.cappetta.testing_example.TestProjectDashboard)  Time elapsed: 0.017 sec
+checkStats(github.cappetta.testing_example.TestProjectDashboard)  Time elapsed: 0.019 sec
+checkTitle(github.cappetta.testing_example.TestProjectDashboard)  Time elapsed: 0.017 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ testing_example ---
+[INFO] Building jar: /Users/cappetta/Dropbox/github/cappetta/testing_example/target/testing_example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ testing_example ---
+[INFO] Installing /Users/cappetta/Dropbox/github/cappetta/testing_example/target/testing_example-1.0-SNAPSHOT.jar to /Users/cappetta/.m2/repository/github/cappetta/testing_example/testing_example/1.0-SNAPSHOT/testing_example-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/cappetta/Dropbox/github/cappetta/testing_example/pom.xml to /Users/cappetta/.m2/repository/github/cappetta/testing_example/testing_example/1.0-SNAPSHOT/testing_example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.810 s
+[INFO] Finished at: 2017-02-26T23:21:20-05:00
+[INFO] Final Memory: 24M/308M
+[INFO] ------------------------------------------------------------------------
