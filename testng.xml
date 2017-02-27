@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
  <suite name="Automated Testing Example" verbose="-1" annotations="JDK">
-  <test name="caffinestate">
+  <test name="caffinestate testing on Grid">
         <classes>
-            <class name="github.cappetta.testing_example" />
+            <class name="github.cappetta.testing_example.GridExampleTest" />
         </classes>
   </test>
  </suite>
