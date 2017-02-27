@@ -12,3 +12,6 @@ This is a simple open-source solution which provides a test manifest, plan, test
     ** vagrant-aws-bootstrap framework: http://www.github.com/cappetta
     
 
+technical references: 
+Chrome Driver: https://chromedriver.storage.googleapis.com/index.html?path=2.27/
+Chrome Driver - google site: https://sites.google.com/a/chromium.org/chromedriver/downloads
