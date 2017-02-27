@@ -2,7 +2,7 @@
  <suite name="Automated Testing Example" verbose="-1" annotations="JDK">
   <test name="caffinestate testing on Grid">
         <classes>
-            <class name="github.cappetta.testing_example.GridExampleTest" />
+            <class name="github.cappetta.testing_example" />
         </classes>
   </test>
  </suite>
